@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+
+# Hardhat / TypeChain build output. Applies to every lecture folder, not only the repo root.
+artifacts/
+cache/
+types/
+typechain-types/
+coverage/
+coverage.json
+dist/
+bundle/
+
+# Foundry build and deployment output
+out/
+broadcast/
+
+# OpenZeppelin upgrades manifest
+.openzeppelin/
+
+# Hardhat Ignition deployment output
+ignition/deployments/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs, OS junk, TypeScript incremental build
+*.log
+.DS_Store
+*.tsbuildinfo
+
+# Gas snapshot files
+.gas-snapshot
+snapshots/
+
+# Course materials. Do not publish slides, handouts, or recordings.
+*.pdf
+*.ppt
+*.pptx
+*.key
+*.odp
+*.hwp
+*.hwpx
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.mp4
+*.mov
+*.m4v
+
+# Circom / snarkjs artifacts. These are large and are not source.
+*.ptau
+*.zkey
+*.wtns
+*.r1cs
+*.sym
+
+# Local editor and agent files
+.cursor/
+.agents/
+.claude
